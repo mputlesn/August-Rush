@@ -1,0 +1,22 @@
+<!--
+  Generated template for the TimerPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="header">
+
+    <h1>Timer</h1>
+
+</ion-header>
+<ion-content padding>
+  <div class="timer">
+      <h4>{{hrs}}:{{min}}:{{sec}}</h4>
+  </div>
+   
+  <div >
+      <button ion-button (click)="pause()" class="btn">{{btnPause}}</button>
+      <button ion-button (click)="stop()" class="btn">Stop</button>
+  </div>
+
+</ion-content>

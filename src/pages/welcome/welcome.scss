@@ -1,0 +1,26 @@
+page-welcome {
+    .body{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../assets/imgs/color.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .con1{
+        color: white;
+        text-align: center;
+        font-size: 6em;
+        margin-top: 50%;
+    }
+    .con2{
+        color:white;
+        text-align: center;
+        font-size: 5em;
+        margin-top: 5%;
+    }
+    .slogan{
+        color: white;
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 10%;
+    }
+}

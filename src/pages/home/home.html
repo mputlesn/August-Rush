@@ -1,0 +1,14 @@
+<ion-header>
+  <h1>{{place}}</h1>
+  <h3>{{temp}}</h3>
+</ion-header>
+ <ion-content>
+    <ion-fab  top right edge>
+        <button ion-fab large><ion-icon class="fab" name="ios-menu" large></ion-icon></button>
+        <ion-fab-list>
+          <button ion-fab (click)="route()"><ion-icon name="md-locate"></ion-icon></button>
+          <button ion-fab (click)="history()"><ion-icon name="md-time"></ion-icon></button>
+        </ion-fab-list>
+      </ion-fab>
+  <div  id="map"></div>
+ </ion-content>

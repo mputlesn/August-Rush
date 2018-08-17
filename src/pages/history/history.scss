@@ -1,0 +1,50 @@
+page-history {
+    #map{
+        width: 100%;
+        height:100%;
+       }
+
+       .header{
+           height: 20%;
+           text-align: center;
+           background-color: #480032;
+           color: white;
+       }
+
+       .fab{
+           background-color: #df0054;
+       }
+
+       h1{
+           font-size: 3em;
+           font-family: Arial, Helvetica, sans-serif
+       }
+       h3{
+           font-size: 1.5em;
+           font-family: Arial, Helvetica, sans-serif
+       }
+
+       .con{
+
+           border-radius: 20px;
+           padding-left: 10px;
+           padding-right: 10px;
+           padding-bottom: 5px;
+           padding-top: 5px;
+           margin-top: 5%;
+           background: rgb(2,0,36);
+           background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,0,50,1) 0%, rgba(223,0,84,1) 100%);
+           
+       }
+
+       .text{
+           color: rgb(235, 223, 223);
+           font-size: 1.3em;
+       }
+
+       .list{
+        margin-top: 5%;
+        padding: 5%;
+        
+       }
+}
